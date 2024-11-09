@@ -1,0 +1,61 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color:#FF5722 ;
+  gap: 40px;
+}
+
+.counter h1 {
+  font-size: 100px;
+}
+
+.counter button {
+  border-radius: 12px;
+  background-color: #FF5722;
+  font-size: 48px;
+  font-weight: bold;
+  color: white;
+  width: 75px;
+  height: 75px;
+}
+
+.input-container {
+  background-color: #FF5722;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  border-radius: 12px;
+  padding: 5px;
+}
+
+.input-container input {
+  width: 80%;
+  background-color: #FF5722;
+  border: none;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.input-container button {
+  width: 20%;
+  outline: none;
+  background-color: #FF5722;
+  border: none;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+
+}
+
